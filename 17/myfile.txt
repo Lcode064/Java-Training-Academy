@@ -1,0 +1,40 @@
+
+ Student Name: Luka
+Student Surname: Mafereka
+Gender: male
+Age: 22
+
+Student Number: 901013857
+Course Name: Swing
+Course Code: JP3
+
+
+Student Name: thabo
+Student Surname: lebese
+Gender: male
+Age: 22
+
+Student Number: 124
+Course Name: Java FX
+Course Code: JP4
+
+
+Student Name: Andile
+Student Surname: Mafereka
+Gender: male
+Age: 23
+
+Student Number: T653
+Course Name: Java FX
+Course Code: JP4
+
+
+Student Name: Thabiso
+Student Surname: Mafereka
+Gender: male
+Age: 95
+
+Student Number: XF9722
+Course Name: Intro to Java
+Course Code: JP1
+

@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ComboBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.RadioButton?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.control.ToggleGroup?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="504.0" prefWidth="635.0" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1" fx:controller="pkg17.FXMLDocumentController">
+   <children>
+      <Label layoutX="156.0" layoutY="35.0" text="JAVA TRAINING ACADEMY">
+         <font>
+            <Font name="System Bold" size="23.0" />
+         </font>
+      </Label>
+      <Label layoutX="60.0" layoutY="97.0" text="STUDENT DETAILS">
+         <font>
+            <Font name="System Bold" size="15.0" />
+         </font>
+      </Label>
+      <Label layoutX="445.0" layoutY="97.0" text="COURSE DETAILS">
+         <font>
+            <Font name="System Bold" size="15.0" />
+         </font>
+      </Label>
+      <Label layoutX="46.0" layoutY="155.0" text="Name:">
+         <font>
+            <Font name="System Bold" size="16.0" />
+         </font>
+      </Label>
+      <Label layoutX="43.0" layoutY="193.0" text="Surname:">
+         <font>
+            <Font name="System Bold" size="16.0" />
+         </font>
+      </Label>
+      <Label layoutX="43.0" layoutY="231.0" text="StudentNumber:">
+         <font>
+            <Font name="System Bold" size="16.0" />
+         </font>
+      </Label>
+      <Label layoutX="46.0" layoutY="265.0" text="Birth Year:">
+         <font>
+            <Font name="System Bold" size="16.0" />
+         </font>
+      </Label>
+      <RadioButton fx:id="male" layoutX="43.0" layoutY="301.0" mnemonicParsing="false" text="Male">
+         <toggleGroup>
+            <ToggleGroup fx:id="gender" />
+         </toggleGroup>
+      </RadioButton>
+      <RadioButton fx:id="female" layoutX="104.0" layoutY="301.0" mnemonicParsing="false" text="Female" toggleGroup="$gender" />
+      <Label layoutX="43.0" layoutY="329.0" text="Age">
+         <font>
+            <Font name="System Bold" size="16.0" />
+         </font>
+      </Label>
+      <Label fx:id="age" layoutX="90.0" layoutY="335.0" text="N/A" />
+      <TextField fx:id="std_name" layoutX="106.0" layoutY="155.0" prefHeight="25.0" prefWidth="161.0" />
+      <TextField fx:id="std_surname" layoutX="118.0" layoutY="193.0" />
+      <TextField fx:id="std_id" layoutX="175.0" layoutY="231.0" prefHeight="25.0" prefWidth="90.0" />
+      <TextField fx:id="birthYear" layoutX="135.0" layoutY="265.0" prefHeight="25.0" prefWidth="132.0" />
+      <Label layoutX="390.0" layoutY="155.0" text="Name:">
+         <font>
+            <Font name="System Bold" size="16.0" />
+         </font>
+      </Label>
+      <ComboBox fx:id="course_name" layoutX="451.0" layoutY="155.0" prefWidth="150.0" />
+      <Label layoutX="390.0" layoutY="193.0" text="Code">
+         <font>
+            <Font name="System Bold" size="16.0" />
+         </font>
+      </Label>
+      <Label fx:id="course_code" layoutX="445.0" layoutY="197.0" text="Display Code here" />
+      <Button layoutX="500.0" layoutY="253.0" mnemonicParsing="false" onAction="#addDetails" prefHeight="25.0" prefWidth="59.0" text="Submit" />
+   </children>
+</AnchorPane>
